@@ -1,0 +1,7 @@
+{
+  "name": "signal-chain",
+  "version": "1.0.0",
+  "description": "Standalone Web Audio API effects chain",
+  "main": "src/SignalChain.js",
+  "type": "module"
+}
