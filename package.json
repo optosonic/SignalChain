@@ -1,7 +1,12 @@
 {
   "name": "signal-chain",
-  "version": "1.0.0",
-  "description": "Standalone Web Audio API effects chain",
+  "version": "1.1.0",
+  "description": "Standalone Web Audio API effects chain with reorderable signal path UI",
   "main": "src/SignalChain.js",
-  "type": "module"
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./SignalChain.js": "./src/SignalChain.js",
+    "./fxSlots.js": "./src/fxSlots.js"
+  }
 }
